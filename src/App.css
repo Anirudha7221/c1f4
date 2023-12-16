@@ -1,0 +1,50 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#containeer{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+#form>div{
+  padding: 10px;
+}
+
+#form>div label{
+  font-weight: 600;
+}
+
+#form>div p{
+  color: red;
+}
+
+#form>div input{
+  width: 280px;
+  padding: 5px;
+  border-radius: 10px;
+  border: none;
+}
+
+#form button{
+  background-color: rgb(71, 71, 233);
+  color: white;
+  height: 35px;
+  width: 60px;
+  border-radius: 10px;
+  margin-left: 40%;
+  border: none;
+  cursor: pointer;
+}
+
+.red_border{
+  outline: 2px solid red;
+}
+
+.green_border{
+  outline: 2px solid green;
+}
